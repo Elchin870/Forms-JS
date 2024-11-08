@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts</title>
+</head>
+
+<body>
+    <div style="text-align: center; margin-top: 200px;">
+        <form>
+            <label for="login">Login</label>
+            <input type="text" id="login" name="login">
+            <span id="login-error" style="color: red; display: none;">Login must start with a lowercase letter and be at least 8 characters long, without numbers.</span>
+            <br><br>
+
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password">
+            <span id="password-error" style="color: red; display: none;">Password must start with an uppercase letter, contain a number, and be at least 8 characters long.</span>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <span id="email-error" style="color: red; display: none;">Please enter a valid email.</span>
+            <br><br>
+
+            <button id="login-button" disabled>LOGIN</button>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
